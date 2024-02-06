@@ -1,0 +1,113 @@
+#heading{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.signupform{
+
+width:fit-content;   
+letter-spacing: normal;
+text-align: center;
+display: grid;
+display:block;
+box-shadow: 2px 8px 10px 2px rgba(0,0,0,0.2);
+transition: 0.3s;
+margin-left:15cm;
+padding-top: 15px;
+    
+}
+
+.signupform:hover {
+box-shadow: 2px 10px 18px 2px rgba(0,0,0,0.2);
+  }
+  
+.container {
+margin: 40px;
+padding: 10px 14px;
+ }
+
+#namelabel{
+
+padding-right: 25mm;
+
+}
+
+#emaillabel{
+
+padding-right: 25mm;
+    
+}
+
+#pnlabel{
+
+padding-right: 9mm;
+}
+
+
+#msglabel{
+
+padding-right: 20mm;
+}        
+
+
+
+.submitbtn{
+
+margin-right: 2mm;
+padding-left: 58px;
+padding-right: 58px;
+text-align: center;
+font-size: medium;
+font-style:normal;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(134, 185, 58);
+color:rgba(255, 255, 255, 0.937);   
+}
+            
+.resetbtn{
+margin-right: 3mm;
+padding-left: 63px;
+padding-right: 65px;
+margin-left:1mm;
+text-align: center;
+background-color: rgb(134, 185, 58);
+font-size: medium;
+font-style:normal;
+font-family: 'Times New Roman', Times, serif;
+color:azure;       
+}
+
+
+#name{
+border: 0.5px solid;
+margin-top: 1mm;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius: 5%;
+}
+
+#email{
+border: 0.5px solid;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius: 5%;
+margin-top: 1mm;
+}
+
+#phonenumber{
+border: 0.5px solid;
+margin-top: 1mm;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius: 5%;
+}
+
+#message{
+border: 0.5px solid;
+margin-top: 1mm;
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+border-top-left-radius: 5%;
+border-top-right-radius: 5%;
+}
+
