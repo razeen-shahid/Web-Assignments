@@ -1,0 +1,276 @@
+body{
+    background-color: rgb(228, 225, 225);
+}
+
+.headers{
+background-color: rgb(97, 96, 96);
+box-shadow: 0px 0px  0px  black;
+}
+
+.Name{
+    text-align: center;
+padding-top: 8mm;
+    margin-right: 15mm;
+    color: aliceblue;
+}
+
+
+.headers:hover{
+    box-shadow: 5px 6px  16px  black;
+    transition: 1s;
+}
+
+
+.mypic{
+    text-align: center;
+	width: 50mm;
+	height: 52mm;
+	border-radius: 5%;
+	margin-bottom: 5mm;
+}
+
+.container{
+    text-align: center;
+
+    margin-left: 130mm;
+    margin-top: -30mm;
+    display: block;
+}
+
+.profession{
+    text-align: center;
+    margin-right: 15mm;
+    color: aliceblue;
+}
+
+.linkedin{
+    width: 5mm;
+    height: 5mm;
+    background: none;
+    border-color: black;
+    mix-blend-mode:lighten;
+    border-radius: 5px;
+    margin-left: 160mm;
+
+}
+
+.linkedinlink{color: aliceblue;}
+
+.github{
+    width: 5mm;
+    height: 5mm;
+    background: none;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 10mm;
+
+}
+
+.githublink{color: aliceblue;}
+
+.email{
+    width: 5mm;
+    height: 5mm;
+    background: none;
+    border-color: black;
+    mix-blend-mode:lighten;
+    border-radius: 5px;
+    margin-left: 10mm;
+
+}
+
+.emailid{color: aliceblue;}
+
+.aboutme{
+
+width: fit-content;
+background-color: azure;
+padding-left:10mm ;
+padding-right: 55mm ;
+margin-left: 8mm;
+padding-top: 10mm;
+padding-bottom: 10mm;
+margin-top: 10mm;
+
+}
+.aboutme:hover{
+    transition: 0.5s;
+    padding-right: 70mm;
+    margin-left: -1mm;
+    padding-top: -2mm;
+}
+
+
+.personalinfo{
+
+    width: 322mm;
+    background-color: azure;
+    padding-left:10mm ;
+    padding-right: 55mm ;
+    margin-left: 8mm;
+    padding-top: 10mm;
+    padding-bottom: 10mm;
+    margin-top: 10mm;
+    
+    }
+
+    .personalinfo:hover{
+        transition: 0.5s;
+        padding-right: 70mm;
+        margin-left: -1mm;
+        padding-top: -2mm;
+    }
+    
+
+    .education{
+
+        width: 322mm;
+        background-color: azure;
+        padding-left:10mm ;
+        padding-right: 55mm ;
+        margin-left: 8mm;
+        padding-top: 10mm;
+        padding-bottom: 10mm;
+        margin-top: 10mm;
+        
+        }
+    
+
+        .education:hover{
+            transition: 0.5s;
+            padding-right: 70mm;
+            margin-left: -1mm;
+            padding-top: -2mm;
+        }
+          
+        
+    .workexperience{
+
+        width: 322mm;
+        background-color: azure;
+        padding-left:10mm ;
+        padding-right: 55mm ;
+        margin-left: 8mm;
+        padding-top: 10mm;
+        padding-bottom: 10mm;
+        margin-top: 10mm;
+        
+        }
+    
+
+        .workexperience:hover{
+            transition: 0.5s;
+            padding-right: 70mm;
+            margin-left: -1mm;
+            padding-top: -2mm;
+        }
+        
+        .projects{
+
+            width: 322mm;
+            background-color: azure;
+            padding-left:10mm ;
+            padding-right: 55mm ;
+            margin-left: 8mm;
+            padding-top: 10mm;
+            padding-bottom: 10mm;
+            margin-top: 10mm;
+            
+            }
+            .morecontent {
+                display: none;
+            }
+            
+            .projects:hover .morecontent {
+                display: block;
+            }
+        .projects:hover{
+            transition: 0.5s;
+            padding-right: 70mm;
+            margin-left: -1mm;
+            padding-top: -2mm;
+        }
+        
+        .vdbtn{
+
+			background-color: rgb(50, 50, 234);
+			color:white;
+			padding: 2mm;
+			border-radius: 6%;
+
+        }
+
+        .arrowhead{
+            padding-left: 0.5mm;
+			text-align: center;
+			visibility: hidden;
+			padding-left: 2mm;
+        }
+
+        .vdbtn:hover{
+            padding-right: 6mm;
+            transition: 0.3s;
+            margin-left: -1mm;
+            padding-top: -2mm;
+        }
+
+        .vdbtn:hover .arrowhead{
+			visibility: visible;
+			}
+
+        
+        .vdbtn2{
+            background-color: rgb(50, 50, 234);
+            color:white;
+            padding: 2mm;
+            border-radius: 6%;
+                    }
+            
+         .arrowhead2{
+                padding-left: 0.5mm;
+                text-align: center;
+                visibility: hidden;
+                padding-left: 2mm;
+					}
+            
+          .vdbtn2:hover{
+				padding-right: 6mm;
+                transition: 0.3s;
+                margin-left: -1mm;
+                padding-top: -2mm;
+                    }
+            
+           .vdbtn2:hover .arrowhead2{
+			   visibility: visible;
+			   }
+
+
+             .skills{
+                        
+				width: 322mm;
+                background-color: azure;
+                padding-left:10mm ;
+                padding-right: 55mm ;
+                margin-left: 8mm;
+                padding-top: 10mm;
+                padding-bottom: 10mm;
+                margin-top: 10mm;
+                }
+                    
+				.skills:hover{
+                    transition: 0.5s;
+                    padding-right: 70mm;
+                    margin-left: -1mm;
+                    padding-top: -2mm;
+                        }
+
+
+                  footer{
+                       background-color: rgb(60, 129, 175);
+					   box-shadow: 0px 0px  0px  black;
+                       margin: 6mm;
+                       margin-left: 8mm;
+                       text-align: center;
+                       color: aliceblue;
+                       padding: 3mm;
+                        }
