@@ -1,0 +1,58 @@
+body {
+    font-family: "Times New Roman", Times, serif; /* Changed font family */
+    background-color: #e6e6e6; /* Added background color */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px; /* Increased font size */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Increased font size */
+}
+
+button {
+    background: #ff3333; /* Changed button color to red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+}
+
+button:hover {
+    background: #cc0000; /* Darker red on hover */
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    font-style: italic; /* Changed font style to italic */
+    margin-top: 5px; /* Added margin top */
+}

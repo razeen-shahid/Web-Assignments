@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>21F-9224 Task 01</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>TASK 01</h1>
+
+<div class="container">
+    <h2>SignIn Form</h2>
+    <form id="signin-form">
+        <div class="form-group">
+            <label for="signin-username">Username:</label>
+            <input type="text" id="signin-username" name="username">
+            <div class="error-message" id="signin-username-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signin-password">Password:</label>
+            <input type="password" id="signin-password" name="password">
+            <div class="error-message" id="signin-password-error"></div>
+        </div>
+        <button type="submit">Sign In</button>
+    </form>
+</div>
+
+<div class="container">
+    <h2>SignUp Form</h2>
+    <form id="signup-form">
+        <div class="form-group">
+            <label for="signup-username">Username:</label>
+            <input type="text" id="signup-username" name="username">
+            <div class="error-message" id="signup-username-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="password">
+            <div class="error-message" id="signup-password-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="email">
+            <div class="error-message" id="signup-email-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-age">Age:</label>
+            <input type="number" id="signup-age" name="age">
+            <div class="error-message" id="signup-age-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-phone">Phone:</label>
+            <input type="text" id="signup-phone" name="phone">
+            <div class="error-message" id="signup-phone-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-address">Address:</label>
+            <input type="text" id="signup-address" name="address">
+            <div class="error-message" id="signup-address-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-city">City:</label>
+            <input type="text" id="signup-city" name="city">
+            <div class="error-message" id="signup-city-error"></div>
+        </div>
+        <div class="form-group">
+            <label for="signup-country">Country:</label>
+            <input type="text" id="signup-country" name="country">
+            <div class="error-message" id="signup-country-error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
